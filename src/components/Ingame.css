@@ -1,0 +1,103 @@
+.container {
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border-bottom: 30px solid #000;
+}
+
+.text-center {
+  margin-top: 10%;
+}
+
+.left {
+  top: 50%;
+  justify-content: flex-start; /* ชิดซ้าย */
+  margin-left: 5%; /* ขยับไปทางซ้าย 5% */
+}
+
+.right {
+  top: 50%;
+  justify-content: flex-end; /* ชิดขวา */
+  margin-right: 5%; /* ขยับไปทางขวา 5% */
+}
+
+.mycontainer {
+  margin-top: 15%;
+  width: 100%;
+  overflow: auto;
+}
+
+.mycontainer div {
+  width: 50%;
+  float: left;
+}
+
+.mycontainer div:last-child {
+  margin-right: 0; /* Remove margin from the last div */
+}
+
+.content-container {
+  display: flex;
+}
+
+.left-content {
+  flex: 1;
+  padding: 10px;
+  margin-top: 30%;
+}
+
+.right-content {
+  flex: 1;
+  padding: 10px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border-bottom: 30px solid #000;
+  z-index: 1; /* Ensure header is above other content */
+}
+
+.content-container {
+  margin-top: 70px; /* Adjust this value according to your header's height */
+  display: flex;
+}
+
+.left-content-container,
+.right-content-container {
+  flex: 1;
+}
+
+.left-content-container {
+  padding: 10px;
+}
+
+.right-content-container {
+  padding: 10px;
+}
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure the content fills the container vertically */
+}
+
+.font {
+  font-size: 29px;
+  color: white;
+}

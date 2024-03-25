@@ -1,0 +1,30 @@
+.custom-input-container {
+  position: relative;
+}
+
+.custom-input {
+  width: 600px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  font-size: 24px; /* Set font size to 24 pixels */
+  padding: 10px; /* Add padding for better spacing */
+  background-color: black;
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  resize: none; /* Disable resizing */
+  overflow: auto; /* Enable scrolling if content overflows */
+  white-space: pre-wrap; /* Allow wrapping and preserve line breaks */
+}
+
+/* Style placeholder text */
+.custom-input::placeholder {
+  color: white;
+}
+
+.placeholder-text {
+  position: absolute;
+  top: 10px; /* Adjust top positioning */
+  left: 10px; /* Adjust left positioning */
+  pointer-events: none; /* Ensure the placeholder text doesn't interfere with input events */
+  color: white;
+  white-space: pre-wrap; /* Allow wrapping and preserve line breaks */
+}

@@ -1,0 +1,38 @@
+.top {
+  font-size: 24px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.boarder {
+  height: 30px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.left {
+  margin-left: 0; /* เพิ่มระยะห่างด้านซ้ายเป็น 48px */
+}
+
+.right-content {
+  justify-content: flex-end; /* ชิดขวา */
+}
+
+.box {
+  height: 60px;
+  width: 200px;
+  background-color: white;
+  margin-left: 48px;
+  color: black;
+  font-size: 48px; /* ขนาดตัวอักษรเป็น 48px */
+  text-align: center; /* จัดตำแหน่งให้กลาง */
+  line-height: 60px; /* ความสูงของบรรทัดเท่ากับความสูงของกล่อง */
+}
+
+.last {
+  margin-top: 30px;
+}

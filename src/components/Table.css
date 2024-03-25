@@ -1,0 +1,25 @@
+.hex-grid {
+  display: grid;
+  grid-template-columns: repeat(cols, 1fr);
+  grid-gap: 1px;
+  position: relative;
+  padding-top: 40px;
+  margin: 50px;
+  transition: transform 0.6s ease;
+}
+
+.hex {
+  width: 100px;
+  height: 115px;
+  background-image: url("../assets/block1.png");
+  background-size: contain;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transform: rotate(90deg);
+  position: relative;
+  transition: filter 0.2s ease-in-out;
+}
+
+.hex:hover {
+  filter: brightness(2);
+  cursor: pointer;
+}
